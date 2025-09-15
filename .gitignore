@@ -177,3 +177,23 @@ allure-results/
 # Local development
 .upm/
 attached_assets/
+
+# Selenium
+screenshots/
+drivers/
+logs/
+test-output/
+reports/
+*.log
+*.tmp
+*.temp
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.mp4
+*.avi
+*.mov
