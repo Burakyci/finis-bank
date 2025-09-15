@@ -162,8 +162,8 @@ mvn test -Dtest=LoanCalculationTest
 🔗 Canlı Site: https://finisbank.web.app
 
 🔑 Demo Hesapları
-Email: test@test.com
-Şifre: asdasd
+Email: demo@finisbank.com
+Şifre: demo123456
 💳 Test Verileri
 TCKN: 12345678901
 Gelir: 15000 TL
@@ -190,5 +190,3 @@ Email: burakkalayci6718@gmail.com
 
 📄 Lisans
 Bu proje MIT Lisansı altında lisanslanmıştır.
-
-⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın! ⭐
