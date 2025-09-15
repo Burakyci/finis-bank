@@ -1,95 +1,305 @@
-# 🏦 Finiş Bankası - Kapsamlı Türk Bankacılık Uygulaması
+# Finiş Bankası - Kapsamlı Türk Bankacılık Uygulaması
 
-React TypeScript • Firebase • Python AI • Test Otomasyonu
-
-## 📋 İçindekiler
-
-- 🏦 Proje Genel Bakış
-- 🚀 Özellikler
-- ⚙️ Teknoloji Stack
-- 🏗️ Sistem Mimarisi
-- 🧪 Test Otomasyonu
-- 📁 Proje Yapısı
-- 🔧 Kurulum
-- 🌐 Canlı Demo
-- 📊 Test Raporları
+**React TypeScript • Firebase • Python • Test Otomasyonu**
 
 ---
 
-## 🏦 Proje Genel Bakış
+## İçindekiler
 
-Finiş Bankası, **React TypeScript** ve **Vite** ile geliştirilmiş kapsamlı bir Türk bankacılık uygulamasıdır.  
-Uygulama; **Firebase authentication**, varsayılan **dark mode**, otomatik banka hesabı oluşturma ve **Türkçe dil desteği** ile tam bir kullanıcı yönetim sistemi sunar.
-
----
-
-## ✨ Temel Özellikler
-
-- 🔐 **Güvenli Giriş Sistemi** - Firebase Authentication
-- 📝 **Detaylı Kayıt** - Finansal profilleme ile
-- 💳 **Hesap Yönetimi** - Banka hesap detayları
-- 🏠 **Bankacılık Ana Sayfası** - Temalı tasarım
-- 🤖 **AI Destekli Kredi Başvurusu** - Gerçek zamanlı hesaplamalar
-- 📊 **Risk Değerlendirmesi** - Machine learning algoritmaları
-- 🌙 **Dark Mode** - Varsayılan olarak aktif
-- 🇹🇷 **Türkçe Arayüz** - Tam Türkçe dil desteği
+- [Proje Genel Bakış](#proje-genel-bakış)
+- [Özellikler](#özellikler)
+- [Teknoloji Stack](#teknoloji-stack)
+- [Sistem Mimarisi](#sistem-mimarisi)
+- [Test Otomasyon Projesi](#test-otomasyon-projesi)
+- [Proje Yapısı](#proje-yapısı)
+- [Kurulum](#kurulum)
+- [Canlı Demo](#canlı-demo)
+- [Test Raporları](#test-raporları)
 
 ---
 
-## 🚀 Özellikler
+## Proje Genel Bakış
 
-### 💰 Kredi Sistemi
+**Finiş Bankası**, React TypeScript ve Vite ile geliştirilmiş kapsamlı bir Türk bankacılık uygulamasıdır. Uygulama Firebase authentication, varsayılan dark mode, otomatik banka hesabı oluşturma ve Türkçe dil desteği ile tam bir kullanıcı yönetim sistemi sunar.
 
-- Sabit **%4.09 Faiz Oranı**
-- **8 Kategorili Skorlama** - Kapsamlı risk analizi
+### Temel Özellikler
+
+- **Güvenli Giriş Sistemi** - Firebase Authentication
+- **Detaylı Kayıt** - Finansal profilleme ile
+- **Hesap Yönetimi** - Banka hesap detayları
+- **Bankacılık Ana Sayfası** - Temalı tasarım
+- **AI Destekli Kredi Başvurusu** - Gerçek zamanlı hesaplamalar
+- **Risk Değerlendirmesi** - Pure Python algoritmaları
+- **Dark Mode** - Varsayılan olarak aktif
+- **Türkçe Arayüz** - Tam Türkçe dil desteği
+
+---
+
+## Özellikler
+
+### Kredi Sistemi
+
+- **Sabit %4.09 Faiz Oranı** - Türk bankacılık standartlarına uygun
+- **8 Kategorili Skorlama** - Kapsamlı risk analizi  
 - **DTI Analizi** - Borç/gelir oranı hesaplaması
 - **KKDF & BSMV Vergileri** - Otomatik hesaplama
 - **Gerçek Zamanlı Sonuçlar** - Anında karar mekanizması
 
-### 👤 Kullanıcı Yönetimi
+### Kullanıcı Yönetimi
 
-- Otomatik Hesap Numarası - `XXXX-XXXXXX` formatında
-- TL Para Birimi - Türk Lirası desteği
-- Güvenli Oturum Yönetimi - Firebase tabanlı
-- Profil Yönetimi - Detaylı kullanıcı bilgileri
-
----
-
-## ⚙️ Teknoloji Stack
-
-### 🎨 Frontend
-
-| Teknoloji    | Versiyon | Açıklama                 |
-| ------------ | -------- | ------------------------ |
-| React        | 18.2.0   | UI kütüphanesi           |
-| TypeScript   | 4.7.4    | Type güvenliği           |
-| Vite         | 3.0.4    | Build aracı              |
-| React Router | 7.8.2    | Yönlendirme              |
-| Firebase     | 12.2.1   | Authentication & Storage |
-
-### 🐍 Backend
-
-| Teknoloji    | Versiyon | Açıklama             |
-| ------------ | -------- | -------------------- |
-| Python       | 3.13     | Backend dili         |
-| FastAPI      | Latest   | Modern API framework |
-| Pandas       | Latest   | Veri analizi         |
-| NumPy        | Latest   | Sayısal hesaplamalar |
-| Scikit-learn | Latest   | Machine learning     |
-| Uvicorn      | Latest   | ASGI server          |
-
-### 🧪 Test Otomasyonu
-
-| Teknoloji     | Versiyon | Açıklama       |
-| ------------- | -------- | -------------- |
-| Java          | 19       | Test dili      |
-| Selenium      | 4.1      | Web otomasyon  |
-| TestNG        | 7.4      | Test framework |
-| Maven         | 3.9+     | Build yönetimi |
-| ExtentReports | 5.1.1    | HTML raporlar  |
+- **Otomatik Hesap Numarası** - XXXX-XXXXXX formatında
+- **TL Para Birimi** - Türk Lirası desteği
+- **Güvenli Oturum Yönetimi** - Firebase tabanlı
+- **Profil Yönetimi** - Detaylı kullanıcı bilgileri
 
 ---
 
-## 🏗️ Sistem Mimarisi
+## Teknoloji Stack
 
-### 🌐 Multi-Service Mimarisi
+### Frontend
+
+| Teknoloji | Versiyon | Açıklama |
+|-----------|----------|----------|
+| React | 18.2.0 | UI kütüphanesi |
+| TypeScript | 4.7.4 | Type güvenliği |
+| Vite | 3.0.4 | Build aracı |
+| React Router | 7.8.2 | Yönlendirme |
+| Firebase | 12.2.1 | Authentication & Storage |
+
+### Backend
+
+| Teknoloji | Versiyon | Açıklama |
+|-----------|----------|----------|
+| Python | 3.13 | Backend dili |
+| Firebase Functions | Latest | Serverless functions |
+| Firebase Admin | 6.4.0 | Backend Firebase SDK |
+| Pure Python Math | Native | Risk hesaplamaları |
+
+### Test Otomasyonu
+
+| Teknoloji | Versiyon | Açıklama |
+|-----------|----------|----------|
+| Java | 19 | Test dili |
+| Selenium | 4.1 | Web otomasyon |
+| TestNG | 7.4 | Test framework |
+| Maven | 3.9+ | Build yönetimi |
+| ExtentReports | 5.1.1 | HTML raporlar |
+
+---
+
+## Sistem Mimarisi
+
+### Multi-Service Mimarisi
+
+```
+┌─────────────────┐ ┌──────────────────┐ ┌─────────────────┐
+│   React App     │ │   Python API     │ │    Firebase     │
+│   Port: 5000    │◄──►│   Functions      │ │   Auth & DB     │
+│   Frontend      │ │   AI Engine      │ │     Cloud       │
+└─────────────────┘ └──────────────────┘ └─────────────────┘
+```
+
+### Veri Akışı
+
+1. **Kullanıcı Girişi** → Firebase Authentication
+2. **Form Verileri** → React State Management  
+3. **AI Analizi** → Python Firebase Functions
+4. **Kredi Kararı** → Pure Python Mathematical Models
+5. **Sonuç Gösterimi** → Real-time UI Updates
+
+---
+
+## Test Otomasyon Projesi
+
+### Test Kapsamı
+
+Bu proje, **Finis Bankası Web arayüzü** üzerinde kapsamlı test otomasyonu sağlar. Modern test mühendisliği yaklaşımları kullanılarak **BDD (Behavior Driven Development)** metodolojisi ile geliştirilmiştir.
+
+### Test Senaryoları
+
+- **Mevduat Hesaplama Testleri** - Otomatik hesaplama doğrulama
+- **Kredi Hesaplama Testleri** - Kapsamlı kredi hesaplama testleri  
+- **Ana Sayfa Navigasyonu** - UI ve navigasyon akışı testleri
+- **End-to-End Senaryolar** - Giriş'ten işlem tamamlamaya kadar
+
+### Test Mimarisi
+
+#### Design Patterns
+- **Page Object Model (POM)** - Sayfa aksiyonları modüler yapıda
+- **Helper Classes** - Yeniden kullanılabilir bileşenler  
+- **Configuration Management** - Esnek ayarlar yönetimi
+
+#### Test Yetenekleri
+- **Çapraz Tarayıcı Testleri** - Chrome ve Firefox desteği
+- **Görsel Test Raporları** - ExtentReports ile HTML çıktılar
+- **Otomatik Ekran Görüntüsü** - Her test adımında screenshot
+- **Akıllı Bekleme Stratejileri** - WaitHelper sınıfı ile
+- **Scroll Yönetimi** - Otomatik sayfa kaydırma
+- **Bankacılık Hesaplamaları** - Kredi hesaplama doğrulamaları
+
+---
+
+## Proje Yapısı
+
+### Frontend Yapısı
+
+```
+src/
+├── components/           # Yeniden kullanılabilir bileşenler
+├── pages/               # Ana sayfa bileşenleri
+│   ├── Home.tsx         # Ana sayfa
+│   ├── Login.tsx        # Giriş sayfası
+│   ├── Register.tsx     # Kayıt sayfası
+│   ├── Account.tsx      # Hesap yönetimi
+│   └── CreditApplication.tsx # Kredi başvurusu
+├── services/            # İş mantığı katmanı
+│   ├── creditService.ts # Kredi hesaplamaları
+│   ├── formService.ts   # Form yönetimi
+│   └── userService.ts   # Kullanıcı işlemleri
+├── utils/               # Yardımcı fonksiyonlar
+├── hooks/               # Custom React hooks
+├── context/             # React Context API
+└── config/              # Konfigürasyon dosyaları
+```
+
+### Backend Yapısı
+
+```
+functions/
+├── main.py                    # Ana Firebase Functions
+├── models/
+│   ├── advanced_scoring.py   # Gelişmiş kredi skorlama
+│   └── credit_scoring.py     # Kredi risk analizi
+├── utils/
+│   └── security.py           # Güvenlik araçları
+└── requirements.txt          # Python dependencies
+```
+
+### Test Yapısı
+
+```
+src/
+├── main/java/
+│   ├── Base/                    # Temel sınıflar
+│   │   ├── BasePage.java
+│   │   ├── ExtentManager.java
+│   │   └── WebDriverInstance.java
+│   ├── helpers/                 # Yardımcı sınıflar
+│   │   ├── LoanCalculator.java
+│   │   ├── ScrollHelper.java
+│   │   └── WaitHelper.java
+│   ├── pageObjects/             # Sayfa nesneleri
+│   │   ├── Homepage.java
+│   │   ├── DepositCalculationPage.java
+│   │   └── LoanCalculationPage.java
+│   └── drivers/                 # WebDriver dosyaları
+└── test/java/test/              # Test sınıfları
+    ├── DepositCalculationTest.java
+    └── LoanCalculationTest.java
+```
+
+---
+
+## Kurulum
+
+### Gereksinimler
+
+- Node.js 18+
+- Python 3.13+
+- Java 19+ (Test için)
+- Maven 3.9+ (Test için)
+- Firebase CLI
+
+### Hızlı Başlangıç
+
+#### 1. Proje Klonlama
+```bash
+git clone [proje-url]
+cd finisbank
+```
+
+#### 2. Frontend Kurulumu
+```bash
+npm install
+npm run dev
+```
+
+#### 3. Backend Kurulumu
+```bash
+cd functions
+pip install -r requirements.txt
+```
+
+#### 4. Firebase Deploy
+```bash
+firebase deploy --only hosting
+```
+
+### Test Çalıştırma
+
+```bash
+# Maven ile test çalıştırma
+mvn clean test
+
+# Belirli test sınıfı çalıştırma  
+mvn test -Dtest=LoanCalculationTest
+```
+
+---
+
+## Canlı Demo
+
+**Canlı Site:** https://finisbank.web.app
+
+### Demo Hesapları
+- **Email:** demo@finisbank.com
+- **Şifre:** demo123456
+
+### Test Verileri
+- **TCKN:** 12345678901
+- **Gelir:** 15000 TL
+- **Kredi Tutarı:** 50000 TL
+
+---
+
+## Test Raporları
+
+### Test Metrikleri
+
+- **Başarı Oranı:** %95+
+- **Test Senaryoları:** 25+ adet
+- **Desteklenen Tarayıcılar:** Chrome, Firefox  
+- **Ortalama Test Süresi:** 3-5 dakika
+
+### Rapor Formatları
+
+- **HTML Raporları** - ExtentReports ile detaylı görsel raporlar
+- **Screenshot Dokümantasyonu** - Her test adımında görsel kanıt
+- **Test Execution Analytics** - Kapsamlı analiz verileri
+
+---
+
+## Katkı Sağlama
+
+1. Fork edin
+2. Feature branch oluşturun (`git checkout -b feature/YeniOzellik`)
+3. Commit yapın (`git commit -m 'Yeni özellik eklendi'`)
+4. Push edin (`git push origin feature/YeniOzellik`)
+5. Pull Request açın
+
+---
+
+## İletişim
+
+**Proje Sahibi:** Burak Kalaycı  
+**Email:** burakkalayci6718@gmail.com
+
+---
+
+## Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır.
+
+---
+
+**Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
