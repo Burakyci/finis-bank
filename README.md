@@ -20,7 +20,7 @@
 
 ## Proje Genel Bakış
 
-**Finiş Bankası**, React TypeScript ve Vite ile geliştirilmiş kapsamlı bir Türk bankacılık uygulamasıdır. Uygulama Firebase authentication, varsayılan dark mode, otomatik banka hesabı oluşturma ve Türkçe dil desteği ile tam bir kullanıcı yönetim sistemi sunar.
+**Finiş Bankası**, React TypeScript ve Vite ile geliştirilmiştir.
 
 ### Temel Özellikler
 
@@ -30,8 +30,6 @@
 - **Bankacılık Ana Sayfası** - Temalı tasarım
 - **AI Destekli Kredi Başvurusu** - Gerçek zamanlı hesaplamalar
 - **Risk Değerlendirmesi** - Pure Python algoritmaları
-- **Dark Mode** - Varsayılan olarak aktif
-- **Türkçe Arayüz** - Tam Türkçe dil desteği
 
 ---
 
@@ -40,7 +38,7 @@
 ### Kredi Sistemi
 
 - **Sabit %4.09 Faiz Oranı** - Türk bankacılık standartlarına uygun
-- **8 Kategorili Skorlama** - Kapsamlı risk analizi  
+- **8 Kategorili Skorlama** - Kapsamlı risk analizi
 - **DTI Analizi** - Borç/gelir oranı hesaplaması
 - **KKDF & BSMV Vergileri** - Otomatik hesaplama
 - **Gerçek Zamanlı Sonuçlar** - Anında karar mekanizması
@@ -48,9 +46,7 @@
 ### Kullanıcı Yönetimi
 
 - **Otomatik Hesap Numarası** - XXXX-XXXXXX formatında
-- **TL Para Birimi** - Türk Lirası desteği
 - **Güvenli Oturum Yönetimi** - Firebase tabanlı
-- **Profil Yönetimi** - Detaylı kullanıcı bilgileri
 
 ---
 
@@ -58,32 +54,32 @@
 
 ### Frontend
 
-| Teknoloji | Versiyon | Açıklama |
-|-----------|----------|----------|
-| React | 18.2.0 | UI kütüphanesi |
-| TypeScript | 4.7.4 | Type güvenliği |
-| Vite | 3.0.4 | Build aracı |
-| React Router | 7.8.2 | Yönlendirme |
-| Firebase | 12.2.1 | Authentication & Storage |
+| Teknoloji    | Versiyon | Açıklama                 |
+| ------------ | -------- | ------------------------ |
+| React        | 18.2.0   | UI kütüphanesi           |
+| TypeScript   | 4.7.4    | Type güvenliği           |
+| Vite         | 3.0.4    | Build aracı              |
+| React Router | 7.8.2    | Yönlendirme              |
+| Firebase     | 12.2.1   | Authentication & Storage |
 
 ### Backend
 
-| Teknoloji | Versiyon | Açıklama |
-|-----------|----------|----------|
-| Python | 3.13 | Backend dili |
-| Firebase Functions | Latest | Serverless functions |
-| Firebase Admin | 6.4.0 | Backend Firebase SDK |
-| Pure Python Math | Native | Risk hesaplamaları |
+| Teknoloji          | Versiyon | Açıklama             |
+| ------------------ | -------- | -------------------- |
+| Python             | 3.13     | Backend dili         |
+| Firebase Functions | Latest   | Serverless functions |
+| Firebase Admin     | 6.4.0    | Backend Firebase SDK |
+| Pure Python Math   | Native   | Risk hesaplamaları   |
 
 ### Test Otomasyonu
 
-| Teknoloji | Versiyon | Açıklama |
-|-----------|----------|----------|
-| Java | 19 | Test dili |
-| Selenium | 4.1 | Web otomasyon |
-| TestNG | 7.4 | Test framework |
-| Maven | 3.9+ | Build yönetimi |
-| ExtentReports | 5.1.1 | HTML raporlar |
+| Teknoloji     | Versiyon | Açıklama       |
+| ------------- | -------- | -------------- |
+| Java          | 19       | Test dili      |
+| Selenium      | 4.1      | Web otomasyon  |
+| TestNG        | 7.4      | Test framework |
+| Maven         | 3.9+     | Build yönetimi |
+| ExtentReports | 5.1.1    | HTML raporlar  |
 
 ---
 
@@ -102,7 +98,7 @@
 ### Veri Akışı
 
 1. **Kullanıcı Girişi** → Firebase Authentication
-2. **Form Verileri** → React State Management  
+2. **Form Verileri** → React State Management
 3. **AI Analizi** → Python Firebase Functions
 4. **Kredi Kararı** → Pure Python Mathematical Models
 5. **Sonuç Gösterimi** → Real-time UI Updates
@@ -118,18 +114,20 @@ Bu proje, **Finis Bankası Web arayüzü** üzerinde kapsamlı test otomasyonu s
 ### Test Senaryoları
 
 - **Mevduat Hesaplama Testleri** - Otomatik hesaplama doğrulama
-- **Kredi Hesaplama Testleri** - Kapsamlı kredi hesaplama testleri  
+- **Kredi Hesaplama Testleri** - Kapsamlı kredi hesaplama testleri
 - **Ana Sayfa Navigasyonu** - UI ve navigasyon akışı testleri
 - **End-to-End Senaryolar** - Giriş'ten işlem tamamlamaya kadar
 
 ### Test Mimarisi
 
 #### Design Patterns
+
 - **Page Object Model (POM)** - Sayfa aksiyonları modüler yapıda
-- **Helper Classes** - Yeniden kullanılabilir bileşenler  
+- **Helper Classes** - Yeniden kullanılabilir bileşenler
 - **Configuration Management** - Esnek ayarlar yönetimi
 
 #### Test Yetenekleri
+
 - **Çapraz Tarayıcı Testleri** - Chrome ve Firefox desteği
 - **Görsel Test Raporları** - ExtentReports ile HTML çıktılar
 - **Otomatik Ekran Görüntüsü** - Her test adımında screenshot
@@ -213,24 +211,28 @@ src/
 ### Hızlı Başlangıç
 
 #### 1. Proje Klonlama
+
 ```bash
 git clone [proje-url]
 cd finisbank
 ```
 
 #### 2. Frontend Kurulumu
+
 ```bash
 npm install
 npm run dev
 ```
 
 #### 3. Backend Kurulumu
+
 ```bash
 cd functions
 pip install -r requirements.txt
 ```
 
 #### 4. Firebase Deploy
+
 ```bash
 firebase deploy --only hosting
 ```
@@ -241,7 +243,7 @@ firebase deploy --only hosting
 # Maven ile test çalıştırma
 mvn clean test
 
-# Belirli test sınıfı çalıştırma  
+# Belirli test sınıfı çalıştırma
 mvn test -Dtest=LoanCalculationTest
 ```
 
@@ -252,54 +254,16 @@ mvn test -Dtest=LoanCalculationTest
 **Canlı Site:** https://finisbank.web.app
 
 ### Demo Hesapları
-- **Email:** demo@finisbank.com
-- **Şifre:** demo123456
 
-### Test Verileri
-- **TCKN:** 12345678901
-- **Gelir:** 15000 TL
-- **Kredi Tutarı:** 50000 TL
-
----
+- **Email:** test@test.com
+- **Şifre:** asdasd
 
 ## Test Raporları
 
 ### Test Metrikleri
-
-- **Başarı Oranı:** %95+
-- **Test Senaryoları:** 25+ adet
-- **Desteklenen Tarayıcılar:** Chrome, Firefox  
-- **Ortalama Test Süresi:** 3-5 dakika
 
 ### Rapor Formatları
 
 - **HTML Raporları** - ExtentReports ile detaylı görsel raporlar
 - **Screenshot Dokümantasyonu** - Her test adımında görsel kanıt
 - **Test Execution Analytics** - Kapsamlı analiz verileri
-
----
-
-## Katkı Sağlama
-
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/YeniOzellik`)
-3. Commit yapın (`git commit -m 'Yeni özellik eklendi'`)
-4. Push edin (`git push origin feature/YeniOzellik`)
-5. Pull Request açın
-
----
-
-## İletişim
-
-**Proje Sahibi:** Burak Kalaycı  
-**Email:** burakkalayci6718@gmail.com
-
----
-
-## Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır.
-
----
-
-**Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
